@@ -13,7 +13,7 @@ st.set_page_config(
 st.markdown('# Análise de Ligas Por Temporada')
 
 # URL do certificado
-url_certificado = "https://letsencrypt.org/certs/isrgrootx1.pem"  # Substitua pelo link correto
+url_certificado =  os.getenv('url') # Substitua pelo link correto
 
 # Caminho para salvar o certificado temporariamente
 # caminho_certificado_temp = '/tmp/certificado.pem'
