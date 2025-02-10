@@ -65,7 +65,9 @@ def load_data():
 try:
     df_liga_anos, df_times_anos = load_data()
     # Exibir os dados
+    st.markdown('# DataFrame1')
     st.dataframe(df_liga_anos)
+    st.markdown('# DataFrame2')
     st.dataframe(df_times_anos)
 except Exception as e:
     st.error(f"Erro ao carregar os dados do banco: {e}")
