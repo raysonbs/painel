@@ -30,6 +30,7 @@ if not os.path.exists(caminho_certificado_temp):
     except requests.exceptions.RequestException as e:
         st.error(f"Erro ao baixar o certificado: {e}")
 
+st.write("painel")
 # Função para carregar os dados do banco de dados
 def load_data():
     # Informações de conexão e caminho do certificado
