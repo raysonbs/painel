@@ -17,7 +17,8 @@ url_certificado = "https://letsencrypt.org/certs/isrgrootx1.pem"  # Substitua pe
 
 # Caminho para salvar o certificado temporariamente
 # caminho_certificado_temp = '/tmp/certificado.pem'
-caminho_certificado_temp = r"C:\Users\RAYSON\cer\isrgrootx1.pem"
+# caminho_certificado_temp = r"C:\Users\RAYSON\cer\isrgrootx1.pem"
+caminho_certificado_temp = '/tmp/certificado.pem'
 
 # Baixar o certificado se necessário
 if not os.path.exists(caminho_certificado_temp):
